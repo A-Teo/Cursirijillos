@@ -1,0 +1,27 @@
+body {
+	background: #CDE; 
+}
+
+#principal{
+	background: #FFFFFF;
+	width: 70%;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+fieldset{
+	width: 200px;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+label {
+	width: 100px;
+}
+
+footer {
+	font-size: 10px;
+	font-weight: bold;
+	width: 70%;
+	margin: 10px auto;;
+}
