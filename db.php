@@ -17,4 +17,5 @@ if(isset($_POST)) {
 	mysqli_close($dbconn);
 }
 header("location: index.php");
+#CLONADO Y PUSHEADO :3
 ?>
