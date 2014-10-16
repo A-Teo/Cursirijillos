@@ -29,3 +29,10 @@ footer {
 	width: 70%;
 	margin: 10px auto;;
 }
+
+table, th   {
+    width: 400px;
+    height: auto;
+    background-color: black;
+    text-align: center;
+}
