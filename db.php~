@@ -2,7 +2,7 @@
 if(isset($_POST)) {  
 	$user = htmlentities($_POST['username']);
 	$pass = htmlentities($_POST['password']);
-	$dbconn = mysqli_connect("localhost", "cursirij_usuario", "SIS2.DB14", "cursirij_bd")
+	$dbconn = mysqli_connect("host=localhost dbname=cursirij_bd user=cursirij_usuario password=SIS2.DB14")
    	or die('No se ha podido conectar: ' . mysqli_connect_error());
 
 	$query = "SELECT * FROM usuario WHERE username='$user' and password='$pass'";
