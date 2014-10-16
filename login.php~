@@ -6,7 +6,6 @@
 			$user = htmlentities($_POST['username']);
 			$pass = htmlentities($_POST['password']);
 			Mapper::login($user,$pass);
-			header("location: index.php");
 		} else { 
 			include_once 'cabecera.php';
 ?>

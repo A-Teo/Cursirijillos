@@ -4,7 +4,7 @@
 --
 -- Servidor: 127.0.0.1:3306
 
--- Tiempo de generación: 16-10-2014 a las 15:20:43
+-- Tiempo de generación: 16-10-2014 a las 16:41:33
 -- Versión del servidor: 5.1.52
 -- Versión de PHP: 5.3.3
 
@@ -30,9 +30,10 @@ USE `cursirij_bd`;
 --
 
 DROP TABLE IF EXISTS `usuario`;
-CREATE TABLE IF NOT EXISTS `usuario` (
+CREATE TABLE `usuario` (
   `username` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL
+  `password` varchar(255) NOT NULL,
+  PRIMARY KEY (`username`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
