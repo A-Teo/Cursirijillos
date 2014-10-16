@@ -124,8 +124,6 @@ ALTER TABLE form ADD CONSTRAINT form_tipo_iu FOREIGN KEY form_tipo_iu (tipo_iu_i
 --
 
 INSERT INTO `usuario` VALUES('Antonio', 'asdf');
-INSERT INTO `usuario` VALUES('Alejandro', 'qwerty');
-INSERT INTO `usuario` VALUES('Jorge', 'zxcv');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
