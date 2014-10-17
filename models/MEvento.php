@@ -19,8 +19,7 @@ class Evento {
     }
     
     public function get_Eventos() {
-        $evento1 = new Evento('Google I/O', 123, '11/7/2014','11/9/2014');
-        $evento2 = new Evento('Apple', 321, '1/1/2015','1/2/2015');
+        $evento1 = new Evento('SIS 2', 123, '11/7/2014','11/9/2014');
         
         $list = array($evento1, $evento2);
         return $list;
