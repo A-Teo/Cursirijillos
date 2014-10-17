@@ -8,8 +8,7 @@ class Mapper {
 		
 		if(mysqli_num_rows($result) == 1){			
 			$_SESSION['username']=$user;
-			$sql_query = "SELECT nombre_rol FROM rol, usuario_rol WHERE usuario_username ='$user' AND rol_id_rol=id_rol";			
-			echo $sql_query;			
+			$sql_query = "SELECT nombre_rol FROM rol, usuario_rol WHERE usuario_username ='$user' AND rol_id_rol=id_rol";
 			$result = self::query($sql_query);
 			$row = mysqli_fetch_assoc($result);
 			$_SESSION['rol']=$row['nombre_rol'];
