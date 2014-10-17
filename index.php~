@@ -5,7 +5,7 @@
 ?>
 	<div id="principal">
 		<a id="logout" href="logout.php">Logout</a>
-		<h1>Bienvenido <?php echo $_SESSION['username']; ?> estas como <?php echo $_SESSION['rol']; ?> </h1>
+		<h1>Bienvenido <?php echo $_SESSION['username']; ?></h1>
 	</div> 
 <?php
 	include_once 'pie_pagina.php';
