@@ -22,6 +22,7 @@
 				<input type="submit" value="Enviar">
 			</fieldset>
 		</form>
+		<a href="register.php">Registrar</a>
 	</div>
 <?php
 		}

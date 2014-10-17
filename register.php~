@@ -1,6 +1,6 @@
 <?php 
 	session_start(); 
-	if(!isset($_SESSION['username'])) {
+	if(isset($_SESSION['username'])) {
 		include_once 'cabecera.php';
 ?>
 	<script type="text/javascript" src="js/functions.js"></script>
@@ -22,5 +22,7 @@
 	</div> 
 <?php
 	include_once 'pie_pagina.php';
-	}
+	} else {
+		header("location: login.php");
+	} 
 ?>
